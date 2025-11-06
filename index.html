@@ -18,7 +18,7 @@
     <div class="fon-image">
         <header class="header-page">
             <!--(nav>a+ul>li*3>a)+ul>li*3>a-->
-            <div class="container">
+            <div class="container header-container">
                 <nav class="header-page-navigation">
                     <a class="header-page-logo" href="./index.html">yachtjet</a>
                     <ul class="header-page-nav-list">
@@ -27,9 +27,33 @@
                         <li class="nav-list-item"><a class="nav-list-link" href="">Reviews</a></li>
                     </ul>
                     <ul class="header-page-social-list">
-                        <li class="social-list-item"><a class="social-list-link" href="https://www.youtube.com/" target="_blank">yt</a></li>
-                        <li class="social-list-item"><a class="social-list-link" href="https://www.facebook.com/" target="_blank">fb</a></li>
-                        <li class="social-list-item"><a class="social-list-link" href="https://www.instagram.com/" target="_blank">ig</a></li>
+                        <li class="social-list-item">
+                            <a class="social-list-link" href="https://www.youtube.com/" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.6698 9.82604L9.33021 8.73438C9.12604 8.63958 8.95833 8.74583 8.95833 8.97187V11.0281C8.95833 11.2542 9.12604 11.3604 9.33021 11.2656L11.6688 10.174C11.874 10.0781 11.874 9.92188 11.6698 9.82604ZM10 0C4.47708 0 0 4.47708 0 10C0 15.5229 4.47708 20 10 20C15.5229 20 20 15.5229 20 10C20 4.47708 15.5229 0 10 0ZM10 14.0625C4.88125 14.0625 4.79167 13.601 4.79167 10C4.79167 6.39896 4.88125 5.9375 10 5.9375C15.1187 5.9375 15.2083 6.39896 15.2083 10C15.2083 13.601 15.1187 14.0625 10 14.0625Z"
+                                        fill="#1B414B" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list-item">
+                            <a class="social-list-link" href="https://www.facebook.com/" target="_blank">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22 12.0251C22 6.49123 17.52 2 12 2C6.48 2 2 6.49123 2 12.0251C2 16.8772 5.44 20.9173 10 21.8496V15.0326H8V12.0251H10V9.5188C10 7.58396 11.57 6.01003 13.5 6.01003H16V9.01754H14C13.45 9.01754 13 9.46867 13 10.0201V12.0251H16V15.0326H13V22C18.05 21.4987 22 17.2281 22 12.0251Z"
+                                        fill="#1B414B" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list-item">
+                            <a class="social-list-link" href="https://www.instagram.com/" target="_blank">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15.8846 3H7.11538C5.75915 3.00145 4.45887 3.54086 3.49986 4.49986C2.54086 5.45887 2.00145 6.75915 2 8.11538V16.8846C2.00145 18.2409 2.54086 19.5411 3.49986 20.5001C4.45887 21.4591 5.75915 21.9985 7.11538 22H15.8846C17.2409 21.9985 18.5411 21.4591 19.5001 20.5001C20.4591 19.5411 20.9985 18.2409 21 16.8846V8.11538C20.9985 6.75915 20.4591 5.45887 19.5001 4.49986C18.5411 3.54086 17.2409 3.00145 15.8846 3ZM11.5 16.8846C10.6328 16.8846 9.78508 16.6275 9.06404 16.1457C8.34299 15.6639 7.781 14.9791 7.44914 14.1779C7.11728 13.3767 7.03045 12.4951 7.19963 11.6446C7.36882 10.7941 7.78641 10.0128 8.39961 9.39961C9.01281 8.78641 9.79407 8.36882 10.6446 8.19963C11.4951 8.03045 12.3767 8.11728 13.1779 8.44914C13.9791 8.781 14.6639 9.34299 15.1457 10.064C15.6275 10.7851 15.8846 11.6328 15.8846 12.5C15.8834 13.6625 15.4211 14.777 14.5991 15.5991C13.777 16.4211 12.6625 16.8834 11.5 16.8846ZM16.9808 8.11538C16.764 8.11538 16.552 8.0511 16.3718 7.93065C16.1915 7.8102 16.051 7.63901 15.9681 7.43871C15.8851 7.23841 15.8634 7.01801 15.9057 6.80538C15.948 6.59275 16.0524 6.39743 16.2057 6.24413C16.359 6.09083 16.5543 5.98643 16.7669 5.94414C16.9796 5.90184 17.2 5.92355 17.4002 6.00652C17.6005 6.08948 17.7717 6.22998 17.8922 6.41024C18.0126 6.5905 18.0769 6.80243 18.0769 7.01923C18.0769 7.30995 17.9614 7.58876 17.7559 7.79433C17.5503 7.9999 17.2715 8.11538 16.9808 8.11538ZM14.4231 12.5C14.4231 13.0781 14.2516 13.6433 13.9304 14.124C13.6093 14.6047 13.1527 14.9793 12.6186 15.2006C12.0845 15.4218 11.4968 15.4797 10.9297 15.3669C10.3627 15.2541 9.84187 14.9757 9.43307 14.5669C9.02427 14.1581 8.74588 13.6373 8.63309 13.0703C8.5203 12.5032 8.57819 11.9155 8.79943 11.3814C9.02067 10.8473 9.39533 10.3907 9.87603 10.0696C10.3567 9.74836 10.9219 9.57692 11.5 9.57692C12.2752 9.57692 13.0187 9.88489 13.5669 10.4331C14.1151 10.9813 14.4231 11.7248 14.4231 12.5Z"
+                                        fill="#1B414B" />
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -48,18 +72,20 @@
             </section>
     </div>
        <!--section>h2+h3+p+img-->
-        <section>
-            <h2>YachtJet fleet is here to take you on the ultimate adventure</h2>
-            <h3>
-                From spacious decks to state-of-the-art technology, our yachts are designed to provide the perfect blend of luxury and
-                functionality.
-            </h3>
-            <p>
-                Take a look at our selection below and choose the yacht that matches your needs and preferences.No matter which yacht
-                you choose, our experienced crew will ensure that your journey is smooth and enjoyable. Book now and get ready for an
-                unforgettable adventure on the high seas.
-            </p>
-            <img src="./images/Photo_title.jpg" alt="yacht on title" width="1340" height="470">
+        <section class="block-second">
+            <div class="container">
+                <h2 class="block-second-title">YachtJet fleet is here to take you on the ultimate adventure</h2>
+                <h3 class="block-second-title-little">
+                    From spacious decks to state-of-the-art technology, our yachts are designed to provide the perfect blend of luxury and
+                    functionality.
+                </h3>
+                <p class="block-second-page">
+                    Take a look at our selection below and choose the yacht that matches your needs and preferences.No matter which yacht
+                    you choose, our experienced crew will ensure that your journey is smooth and enjoyable. Book now and get ready for an
+                    unforgettable adventure on the high seas.
+                </p>
+                <img class="block-second-img" src="./images/Photo_title.jpg" alt="yacht on title" width="1340" height="470">
+            </div>
         </section>
         <!--section>h2+(ul>li*3>img+h3+p+(ul>li*5>p*2))+button  -->
         <section>
